@@ -4,27 +4,52 @@ const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 
 // array of questions for user
-const questions = [
-
+const promptQuestions = [
   {
-    type: 'input',
-    message: 'What is your project title?',
     name: 'title',
+    message: 'What is your project title?',
+    type: 'input',
   },
   {
-    type: 'input',
-    message: 'Please describe your project',
     name: 'description',
+    message: 'Please describe your project',
+    type: 'input',
   },
   {
+    name: 'installation',
+    message: 'What steps are needed to install your project?',
     type: 'input',
-    message: 'What technologies have you used for this project',
-    name: 'technologies',
   },
   {
+    name: 'usage',
+    message: 'What is the use of your project?',
     type: 'input',
-    message: 'What is your Github username',
-    name: 'username',
+  },
+  {
+    name: 'licence',
+    message: 'What license does your project use?',
+    type: 'list',
+    choices: ['None','MIT','Apache','Eclipse','GNU','Mozilla']
+  },
+  {
+    name: 'contributing',
+    message: 'Who maintains and can contribute to the project?',
+    type: 'input',
+  },
+  {
+    name: 'tests',
+    message: 'How do you test this project?',
+    type: 'input',
+  },
+  {
+    name: 'questions',
+    message: 'What is your Github username so others can reach you for questions?',
+    type: 'input',
+  },
+  {
+    name: 'email',
+    message: 'What is your Github username so others can reach you for questions?',
+    type: 'input',
   },
 
 ];
