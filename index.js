@@ -26,7 +26,7 @@ const promptQuestions = [
     type: 'input',
   },
   {
-    name: 'licence',
+    name: 'license',
     message: 'What license does your project use?',
     type: 'list',
     choices: ['None','MIT','Apache','Eclipse','GNU','Mozilla']
@@ -62,14 +62,10 @@ function writeToFile(fileName, data) {
 // function to initialize program
 function init() {
   inquirer
-  .prompt([
-      {
-        type: 'input',
-        message:"",
-      }
-  ])
+  .prompt(promptQuestions)
   .then((answers) => {
-    console.log(answers);
+    const markdown = generateMarkdown(answers)
+    console.log(markdown)
     fs.writeFile('log.txt', JSON.stringify(answers), (err) =>{
       console.log(err)
     })
