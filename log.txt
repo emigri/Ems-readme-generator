@@ -1,1 +1,0 @@
-{"title":"","description":"","installation":"","usage":"","licence":"MIT","contributing":"","tests":"","questions":"","email":""}
