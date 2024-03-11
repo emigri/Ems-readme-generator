@@ -1,54 +1,32 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-# Generate a README
+  
+# Emily's Readme Generator
 
 ## Description
-
-### This README generator creates a README file using prompts in the terminal
-
+#### This is a readme generator that uses inquirer prompts to create a professional readme file for projects
 ---
-
 ## Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
-- [Contributing](#constributing)
-- [Tests](#tests)
-- [Questions](#questions)
-
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#constributing)
+* [Tests](#tests)
+* [Questions](#questions)
 ---
-
 ## Installation
-
-### Clone the file from the repo and run npm install
-
+#### Install node
 ---
-
 ## Usage
-
-### Use node index.js to prompt a number of questions about the README which will be used as answers to create the markdown
-
+#### Makes it easier to make README for future projects
 ---
-
 ## License
-
-### MIT
-
+#### MIT
 ---
-
 ## Contributing
-
-### Me
-
+#### Emily Grivot, Anyone can contribute
 ---
-
 ## Tests
-
-### Inquirer and Node are required to run the application
-
----node
-
+#### N/A
+---
 ## Questions
-
-### If you have any questions, find me on Github (https://github.com/emigri) or email me on emilygrivot@hotmail.co.uk
+#### If you have any questions, find me on Github (https://github.com/emigri) or email me on emilygrivot@hotmail.co.uk

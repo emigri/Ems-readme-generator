@@ -6,7 +6,7 @@ function generateMarkdown(data) {
 # ${data.title}
 
 ## Description
-### ${data.description}
+#### ${data.description}
 ---
 ## Table of Contents
 * [Installation](#installation)
@@ -17,22 +17,22 @@ function generateMarkdown(data) {
 * [Questions](#questions)
 ---
 ## Installation
-### ${data.installation}
+#### ${data.installation}
 ---
 ## Usage
-### ${data.usage}
+#### ${data.usage}
 ---
 ## License
-### ${data.license}
+#### ${data.license}
 ---
 ## Contributing
-### ${data.contributing}
+#### ${data.contributing}
 ---
 ## Tests
-### ${data.tests}
+#### ${data.tests}
 ---
 ## Questions
-### If you have any questions, find me on Github (https://github.com/${data.gitHubName}) or email me on ${data.email}`;
+#### If you have any questions, find me on Github (https://github.com/${data.gitHubName}) or email me on ${data.email}`;
 }
 
 function licenseBadgeGenerator(license) {
