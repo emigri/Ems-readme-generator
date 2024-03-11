@@ -30,7 +30,7 @@ function generateMarkdown(data) {
 ---
 ## Tests
 ### ${data.tests}
----node
+---
 ## Questions
 ### If you have any questions, find me on Github (https://github.com/${data.gitHubName}) or email me on ${data.email}`;
 }
